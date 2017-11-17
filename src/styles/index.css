@@ -1,0 +1,128 @@
+@import './antd.min.css';
+
+body {
+    background-color: #d4e7ff;
+}
+
+body * {
+    direction: rtl;
+}
+
+*:focus {
+    outline: none;
+}
+
+.siteHeader {
+    text-align: center;
+    font-family: 'B Yekan';
+    font-weight: bold;
+    /*color: violet;*/
+}
+
+.incomePanel {
+    background-color: white;
+    width: 800px;
+    margin: 30px auto 0px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #a2b3e3;
+}
+
+.incomePanel ul {
+    width: 600px;
+    margin: 0px auto;
+}
+
+.incomePanel .headers {
+    color: #0072ff;
+    font-weight: bold;
+}
+
+.incomePanel .headers li {
+    /* background-color: #f6faff; */
+    border-bottom: 2px solid #2196F3;
+}
+
+.incomePanel li {
+    /* background-color: #eee; */
+    border-bottom: 1px solid #ddd;
+    margin: 7px 0px;
+    height: 35px;
+    font-family: Vazir;
+    font-size: 14px;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.incomePanel li span {
+    display: inline-block;
+}
+
+.incomePanel .doneCheck {
+    width: 20px; height: 20px;
+    /* border: 2px solid #7a00ff;
+    background-color: #eddcff; */
+    border: 2px solid #1989cb;
+    background-color: #e6f1fc;
+    border-radius: 10px;
+    cursor: hand;
+
+}
+
+.incomePanel .menuIcon , .incomePanel .moveIcon {
+    display: none;
+    color: gray;
+    font-size: larger;
+    cursor: hand;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.incomePanel li:hover .menuIcon , .incomePanel li:hover .moveIcon {
+    display: initial;
+}
+
+.incomePanel .addRow {
+    color: #0072ff;
+    cursor: hand;
+    border-bottom: none;
+}
+
+.incomePanel .addFieldsRow {
+    padding-top: 0px;
+}
+
+.incomePanel .addFieldsRow > div {
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.incomePanel .addFieldsRow .fields {
+    /* border-radius: 0px 5px 5px 0px; */
+    display: inline-block;
+}
+
+.incomePanel .addFieldsRow .buttons {
+    /* border-radius: 5px 0px 0px 5px; */
+    float: left;
+}
+
+.incomePanel .addFieldsRow .buttons > div {
+    width: 30px; height: 30px;
+    font-size: 20px;
+}
+
+.incomePanel .addFieldsRow > div > div > div {
+    display: inline-block;
+    padding: 5px;
+}
+
+.incomePanel .addFieldsRow .fields > div {
+    border-left: 1px solid #ddd;
+}
+
+.incomePanel .addFieldsRow input {
+    background-color: transparent;
+    border: none;
+}
